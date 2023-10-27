@@ -33,7 +33,6 @@ export class ContactForm extends Component {
             required
           />
         </label>
-
         <label className={css.labelText}>
           Number
           <input
@@ -46,7 +45,7 @@ export class ContactForm extends Component {
             required
           />
         </label>
-у
+        у
         <button type="submit" className={css.btnSbm}>
           Add contact
         </button>
